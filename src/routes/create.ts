@@ -20,7 +20,7 @@ export async function create(request: FastifyRequest, reply: FastifyReply) {
 
     return reply.send(201);
   } catch (error) {
-    return reply.send({
+    return reply.status(400).send({
       message: `Error creating new schedule: ${error}`,
     });
   }
