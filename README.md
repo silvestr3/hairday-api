@@ -1,5 +1,5 @@
 ## Hairday API
 
-- [ ] Create new schedule
-- [ ] List schedules by day
-- [ ] Cancel schedule
+- [x] Create new schedule
+- [x] List schedules by day
+- [x] Cancel schedule
