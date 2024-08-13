@@ -1,2 +1,10 @@
+
+# NODE
 node_modules
 package-lock.json
+
+# ENVIRONMENT
+.env
+
+# DATABASE
+data
